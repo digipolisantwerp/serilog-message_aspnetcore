@@ -1,0 +1,24 @@
+{
+	"version": "1.0.0",
+	"description": "Message enricher for Serilog.",
+	"authors": [ "digipolis.be" ],
+    "packOptions": {
+        "tags": [ "Toolbox", "Serilog.Message" ],
+        "repository": {
+            "type": "git",
+            "url": "https://github.com/digipolisantwerp/serilog-message_aspnetcore.git"
+        },
+        "projectUrl": "https://github.com/digipolisantwerp/serilog-message_aspnetcore",
+        "licenseUrl": "https://github.com/digipolisantwerp/serilog-message_aspnetcore/LICENSE.txt"
+    },
+	"dependencies": {
+        "NETStandard.Library": "1.6.0",
+        "Digipolis.Serilog": "2.0.1"
+	},
+	"frameworks": {
+        "netstandard1.6": {
+            "imports": "dnxcore50"
+        }
+    }
+}
+
