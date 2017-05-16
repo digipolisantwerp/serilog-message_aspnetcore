@@ -22,11 +22,19 @@ This library contains an enricher for Serilog that adds properties to the LogEve
 ## Installation
 
 This package is hosted on Myget on the following feed : https://www.myget.org/F/digipolisantwerp/api/v3/index.json.  
-To add it to a project, you add the package to the project.json :
+To add it to a project, you add the package to the csproj project file:
+
+```xml
+  <ItemGroup>
+    <PackageReference Include="Digipolis.Serilog.Message" Version="2.0.0" />
+  </ItemGroup>
+``` 
+
+or if your project still works with project.json :
 
 ``` json 
 "dependencies": {
-    "Digipolis.Serilog.Message":  "1.0.0",
+    "Digipolis.Serilog.Message":  "2.0.0",
  }
 ``` 
 
