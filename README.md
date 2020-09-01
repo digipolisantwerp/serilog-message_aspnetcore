@@ -26,16 +26,8 @@ To add it to a project, you add the package to the csproj project file:
 
 ```xml
   <ItemGroup>
-    <PackageReference Include="Digipolis.Serilog.Message" Version="2.0.0" />
+    <PackageReference Include="Digipolis.Serilog.Message" Version="3.0.0" />
   </ItemGroup>
-``` 
-
-or if your project still works with project.json :
-
-``` json 
-"dependencies": {
-    "Digipolis.Serilog.Message":  "2.0.0",
- }
 ``` 
 
 In Visual Studio you can also use the NuGet Package Manager to do this.

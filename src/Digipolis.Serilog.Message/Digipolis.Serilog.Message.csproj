@@ -1,10 +1,10 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <VersionPrefix>2.0.0</VersionPrefix>
+    <VersionPrefix>3.0.0</VersionPrefix>
     <Description>Message enricher for Serilog.</Description>
     <Authors>digipolis.be</Authors>
-    <TargetFramework>netstandard1.6</TargetFramework>
+    <TargetFramework>netstandard2.0</TargetFramework>
     <AssemblyName>Digipolis.Serilog.Message</AssemblyName>
     <PackageId>Digipolis.Serilog.Message</PackageId>
     <PackageTags>Toolbox;Serilog.Message</PackageTags>
@@ -12,12 +12,12 @@
     <PackageLicenseUrl>https://github.com/digipolisantwerp/serilog-message_aspnetcore/LICENSE.txt</PackageLicenseUrl>
     <RepositoryType>git</RepositoryType>
     <RepositoryUrl>https://github.com/digipolisantwerp/serilog-message_aspnetcore.git</RepositoryUrl>
-    <NetStandardImplicitPackageVersion>1.6.0</NetStandardImplicitPackageVersion>
-    <PackageTargetFallback>$(PackageTargetFallback);dnxcore50</PackageTargetFallback>
+    <NetStandardImplicitPackageVersion>2.0.0</NetStandardImplicitPackageVersion>
+    <AssetTargetFallback>$(AssetTargetFallback);dnxcore50</AssetTargetFallback>
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Digipolis.Serilog" Version="3.0.0" />
+    <PackageReference Include="Digipolis.Serilog" Version="4.0.0" />
   </ItemGroup>
 
 </Project>
