@@ -1,5 +1,7 @@
 # Serilog Message Enrichment Library
 
+# -----------Deprecated-----------
+
 Serilog enricher for logging messages.
 
 ## Table of Contents

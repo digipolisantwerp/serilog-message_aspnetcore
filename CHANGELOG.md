@@ -1,5 +1,7 @@
 # Serilog Message Toolbox
 
+# -----------Deprecated-----------
+
 ## 3.0.0
 
 - Upgrade to .NET Standard 2.0
