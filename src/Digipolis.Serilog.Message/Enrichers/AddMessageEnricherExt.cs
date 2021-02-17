@@ -7,6 +7,7 @@ namespace Digipolis.Serilog
 {
     public static class AddMessageEnricherExt
     {
+        [Obsolete("This package is not used anymore")]
         public static SerilogExtensionsOptions AddMessagEnricher(this SerilogExtensionsOptions options, Action<MessageEnricherOptions> setupAction)
         {
             if ( setupAction == null ) throw new ArgumentNullException(nameof(setupAction), $"{nameof(setupAction)} can not be null.");

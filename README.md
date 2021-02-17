@@ -1,5 +1,9 @@
 # Serilog Message Enrichment Library
 
+# -----------Deprecated-----------
+This toolbox is no longer maintained because it seemed to be unused and the `MessageVersion` log field is not required according to the [Digipolis logging guidelines](https://github.com/digipolisantwerpdocumentation/logging-requirements).
+
+
 Serilog enricher for logging messages.
 
 ## Table of Contents
